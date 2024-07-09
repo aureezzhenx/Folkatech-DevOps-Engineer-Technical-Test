@@ -24,3 +24,8 @@ Install NodeJS 14
 ```
 nvm install 14
 ```
+
+Clone repository NodeJS Application dari https://github.com/aureezzhenx/wayshub-frontend
+![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/9.png)
+
+Jalankan npm install
