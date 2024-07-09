@@ -1,3 +1,9 @@
+# Infrastuktur (Terraform AWS EC2 + ALB config)
+[Readme!](https://github.com/aureezzhenx/devops3/blob/main/infrastuktur/readme.md)
+
+# Konfigurasi server frontend proxy_pass NGINX, SSL
+[Readme!](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/readme.md)
+
 Testing Goals
 
 - Dengan test ini, kami ingin melihat kemampuan Anda untuk membuat infrastruktur server dari awal serta keterampilan kandidat sebagai system administrator.
