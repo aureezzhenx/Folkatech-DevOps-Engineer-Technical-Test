@@ -1,16 +1,16 @@
 # Infrastuktur (Terraform AWS EC2 + ALB config)
-[Readme!](https://github.com/aureezzhenx/devops3/blob/main/infrastuktur/readme.md)
+[Readme!](https://github.com/aureezzhenx/devops3/blob/main/infrastruktur/readme.md)
 
 # Konfigurasi server frontend proxy_pass NGINX, SSL
 [Readme!](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/readme.md)
 
 Testing Goals
 
-- Dengan test ini, kami ingin melihat kemampuan Anda untuk membuat infrastruktur server dari awal serta keterampilan kandidat sebagai system administrator.
+- Membuat infrastruktur server dari awal
 
 The Task
 
-- Tugas kandidat adalah menyediakan aplikasi Node.js dengan pilihan nginx/httpd frontend proxy. 
+- Menyediakan aplikasi Node.js dengan pilihan nginx/httpd frontend proxy. 
 
 The Solution
 
@@ -19,12 +19,3 @@ The Solution
 - Penyediaan infrastruktur ditujukan untuk AWS.
 - Itu harus berjalan di Centos 7, menggunakan security best practices.
 - Jangan melewatkan terkait security/keamanan infrastruktur.
-
-When you are finished
-
-- Pastikan Anda menyertakan README file untuk memberi tahu untuk cara menjalankannya.
-
-Bonus Points
-
-- Buatlah setting frontend proxy untuk menggunakan ssl-
-- Setting frontend proxy untuk mengarahkan ke ssl jika request masihmenggunakan http.
