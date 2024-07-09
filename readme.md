@@ -9,9 +9,13 @@ The Task
 The Solution
 
 · Dalam solusi yang Anda berikan, harap tekankan pada readability, maintainability dan metodologi DevOps. Kami mengharapkan cara yang sangat jelas untuk membuat ulang pengaturan Anda.
+
 · Gunakan tools seperti CloudFormating atau Terraform untuk konfigurasi.
+
 · Penyediaan infrastruktur ditujukan untuk AWS.
+
 · Itu harus berjalan di Centos 7, menggunakan security best practices.
+
 · Jangan melewatkan terkait security/keamanan infrastruktur.
 
 When you are finished
@@ -21,4 +25,5 @@ When you are finished
 Bonus Points
 
 · Buatlah setting frontend proxy untuk menggunakan ssl
+
 · Setting frontend proxy untuk mengarahkan ke ssl jika request masihmenggunakan http.
