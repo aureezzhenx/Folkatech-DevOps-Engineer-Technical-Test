@@ -1,8 +1,5 @@
 Konfigurasi server frontend
 
-NGINX sudah terinstall dari terraform
-![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/4.png)
-
 Install Node Version Manager (NVM) https://github.com/nvm-sh/nvm
 
 ![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/5.png)
@@ -25,8 +22,28 @@ Install NodeJS 14
 nvm install 14
 ```
 
-Clone repository NodeJS Application dari https://github.com/aureezzhenx/wayshub-frontend
+Clone repository aplikasi frontend nodejs dari https://github.com/aureezzhenx/wayshub-frontend
 ![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/9.png)
 
-Jalankan npm install
+Jalankan npm install 
 ![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/10.png)
+
+Jalankan npm start di background `(npm start &)`
+![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/11.png)
+
+Aplikasi frontend jalan di port 3000
+![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/14.png)
+
+Konfigurasi proxy pass dan SSL di NGINX
+SSL menggunakan mkcert https://words.filippo.io/mkcert-valid-https-certificates-for-localhost/
+
+Instalasi SSL di direktory /etc/nginx `mkcert --install`
+![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/12.png)
+
+Melakukan konfigurasi proxy_pass di nginx.conf, update listener menjadi 443 yang sebelumnya 80, dan update ssl_certificate
+![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/13.png)
+
+Verifikasi konfigurasi NGINX dengan `nginx -t` lalu restart NGINX dengan cara `systemctl restart nginx`. SSL sudah terpasang
+![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/15.png)
+
+
