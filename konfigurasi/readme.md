@@ -29,3 +29,4 @@ Clone repository NodeJS Application dari https://github.com/aureezzhenx/wayshub-
 ![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/9.png)
 
 Jalankan npm install
+![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/10.png)
