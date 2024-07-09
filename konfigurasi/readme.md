@@ -1,6 +1,11 @@
 ### Konfigurasi server frontend
-
+```
 DISCLAIMER: Karena keterbatasan, saya tidak memakai AWS dikarenakan saya tidak mempunyai CC untuk melakukan registrasi free-tier di aws, catatan saya dibawah ini menggunakan WSL dengan distro CentOS 8.
+
+Sebagai bahan pertimbangan, saya sertakan Portfolio DevOps Engineer saya.
+- [DevOps #1](https://github.com/aureezzhenx/TaskDevOps) (VMWare & Cloud Computing, Manage Code & Database, Docker & CI/CD, Monitoring & Ansible)
+- [DevOps #2](https://github.com/aureezzhenx/Jouzie-Final-Task-Dumbways-Batch-4) (Deploy React on AWS)
+```
 
 Install Node Version Manager (NVM) https://github.com/nvm-sh/nvm
 
