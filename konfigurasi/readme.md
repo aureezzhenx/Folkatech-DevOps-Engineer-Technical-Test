@@ -1,4 +1,6 @@
-Konfigurasi server frontend
+### Konfigurasi server frontend
+
+DISCLAIMER: Karena keterbatasan, saya tidak memakai AWS dikarenakan saya tidak mempunyai CC untuk melakukan registrasi free-tier di aws, catatan saya dibawah ini menggunakan WSL dengan distro CentOS 8.
 
 Install Node Version Manager (NVM) https://github.com/nvm-sh/nvm
 
