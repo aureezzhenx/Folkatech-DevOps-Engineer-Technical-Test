@@ -3,7 +3,7 @@ Konfigurasi server frontend
 NGINX sudah terinstall dari terraform
 ![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/4.png)
 
-Install Node Version Manager (NVM)
+Install Node Version Manager (NVM) https://github.com/nvm-sh/nvm
 
 ![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/5.png)
 ![alt text](https://github.com/aureezzhenx/devops3/blob/main/konfigurasi/6.png)
