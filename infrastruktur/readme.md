@@ -12,7 +12,7 @@ main.tf
 ```
 # Provider AWS
 provider "aws" {
-  region = "ap-southeast-3"  # Ganti dengan region AWS yang diinginkan
+  region = "ap-southeast-3"
 }
 
 # Buat VPC baru
