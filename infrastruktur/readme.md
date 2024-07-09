@@ -2,7 +2,7 @@ Infrastuktur Server Frontend
 
 ![alt text](https://github.com/aureezzhenx/devops3/blob/main/infrastruktur/Untitled%20Diagram.drawio.png)
 
-Menggunakan Terraform sebagai Infrastuktur As Code untuk meng-instalasi instance t2.small ap-southeast-3 di VPC baru dengan security group port SSH hanya bisa diakses oleh IP tertentu (alasan keamanan), melakukan konfigurasi auto scalling Amazon Load Balancer terhadap server frontend dengan max_size 4. Penggunaan load balancer di instance frontend bertujuan untuk menghindari error 505 dikala high traffic dengan automasi melakukan server baru dari sistem load balancer AWS.
+Menggunakan Terraform sebagai Infrastuktur As Code untuk meng-instalasi instance t2.small ap-southeast-3 di VPC baru dengan security group port SSH hanya bisa diakses oleh IP tertentu (alasan keamanan), melakukan konfigurasi auto scalling Amazon Load Balancer terhadap server frontend dengan max_size 4. Penggunaan load balancer di instance frontend bertujuan untuk menghindari error 505 dikala high traffic dengan automasi melakukan penambahan instance baru dari sistem load balancer AWS.
 
 ```
 mkdir terraform-aws-autoscaling-lb-vpc
